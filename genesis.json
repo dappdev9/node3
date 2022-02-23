@@ -1,0 +1,39 @@
+{
+    "name": "node2",
+    "genesis": {
+        "nonce": "0x0000000000000000",
+        "timestamp": "0x0",
+        "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000f858f85494a36e3bf0f8d0ceb4e09d0755cb93402eadde078194c2529f185f0e825abb13dfe6ec9e3e80285457339461033fffc70b94f80a8e3376614a1d26f8573fda943598b4cfe2fa531b27abbd23362f4ce56686c07280c0",
+        "gasLimit": "0x500000",
+        "difficulty": "0x1",
+        "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "coinbase": "0x0000000000000000000000000000000000000000",
+        "alloc": {},
+        "number": "0x0",
+        "gasUsed": "0x70000",
+        "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "params": {
+        "forks": {
+            "homestead": 0,
+            "byzantium": 0,
+            "constantinople": 0,
+            "petersburg": 0,
+            "istanbul": 0,
+            "EIP150": 0,
+            "EIP158": 0,
+            "EIP155": 0
+        },
+        "chainID": 100,
+        "engine": {
+            "ibft": {
+                "type": "PoA"
+            }
+        },
+        "blockGasTarget": 0
+    },
+    "bootnodes": [
+        "/ip4/52.5.82.174/tcp/1478/p2p/16Uiu2HAm6cPy6crhY3FuEP31mL6YYaNDVEN15babNmnjFwNMfDhr",
+        "/ip4/52.5.82.174/tcp/1478/p2p/16Uiu2HAm97jqgz7MYX65AhCm5tc2vYNYne6KKZAm49o18Etaw3Kt"
+    ]
+}
